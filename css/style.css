@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+*{box-sizing: border-box; 
+}
+body{ 
+margin: 0; font-family: 'Lato', sans-serif;
+ }
+.container{
+ width: 1200px;
+ margin: auto;
+ 
+ display: flex ;
+ }
+.col{
+	padding: 15px;
+}
+h1{font-size: 19px;
+    font-weight: 900;
+}
+p{font-size: 17px;
+font-weight: 600;
+    color: #333;
+
+}
+.col-2-3{
+	width: 66.66%;
+}
+.col-1-3{
+	width: 33.33%;
+	}
+	.box{
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+
+	}
+	.color1{background:#8bc34a;
+		box-shadow: 11px 12px 0px -1px #8bc34a80;
+
+	}
+	.color2{background: #7c7cc3;
+box-shadow: 11px 12px 0px -1px #7c7cc380;
+	}
+	.color3{background: #9e9e9e;
+
+	box-shadow: 11px 12px 0px -1px #9e9e9e80;}
+	a{display: inline-block;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #f2f5ef;
+    border-radius: 30px;
+    font-size: 20px;
+
+	}
+	.color1 a{background: #3c561d;
+box-shadow: 7px 6px 0px 0px #687e4d;
+
+
+	}
+	.color2 a{background: #4242c7;
+    box-shadow: 7px 6px 0px 0px #383856;
+
+	}
+	.color3 a{background: #503939;
+    box-shadow: 7px 6px 0px 0px #a16d6d; 
+	}
+	img{
+		max-width: 100%;
+	}
+	.box img{
+		width: 100px;
+	}
